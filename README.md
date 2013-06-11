@@ -5,11 +5,16 @@ Voxelize a triangulated mesh into an [ndarray](https://github.com/mikolalysenko/
 ## Example
 
 ```javascript
+//Load bunny
 var bunny = require("bunny")
 
+//Voxelize the mesh
 var result = require("voxelize")(bunny.cells, bunny.positions, 0.1)
+
+//Unpack result
 var voxels = result.voxels
-var bounds = result.bounds
+var origin = result.origin
+var resolution = result.resolution
 ```
 
 ## Install
