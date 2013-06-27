@@ -1,14 +1,14 @@
 {
   "name": "voxelize",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Voxelizes a mesh into an ndarray",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "dependencies": {
-    "ndarray": "~0.2.4",
-    "rle-ndarray": "~0.0.0",
+    "ndarray": "~1.0.0",
+    "rle-ndarray": "~1.0.0",
     "rle-rasterize": "~0.0.6"
   },
   "devDependencies": {
