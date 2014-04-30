@@ -1,6 +1,5 @@
 "use strict"
 
-var ndarray = require("ndarray")
 var rasterize = require("rle-rasterize")
 var rle2array = require("rle-ndarray").rle2array
 
